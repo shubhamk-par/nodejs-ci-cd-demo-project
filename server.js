@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5050;
 
 app.get("/", (req, res) => {
   res.send(
-    "Hello World ! From GitHub CI/CD Pipeline ! hello 10turtle Friendssssss ...",
+    "Hello World ! From Jenkins CI/CD Pipeline ! hello 10turtle Friendssssss ...",
   );
 });
 
